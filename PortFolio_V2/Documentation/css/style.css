@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family:Arial;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p {
+	font-size:14px;
+}
+a {
+	color:#05B2D2;
+	text-decoration:none;
+}
+/****************************** End of Reset ********************************/
+
+/****************************** Begin Of Aside ********************************/
+
+.wrapper {
+	width:960px;
+	margin:0 auto;
+}
+aside {
+	margin-top:5px;
+	width:220px;
+	border-right:1px solid #E7EFF7;
+	float:left;
+
+}
+.about {
+	border-bottom:1px solid #E7EFF7;
+	padding-bottom:20px;
+	margin-right:10px;
+}
+
+.about img {
+	width:162px;
+	height:54px;
+	border-bottom:1px solid #E7EFF7;
+	padding:20px 50px 20px 0px;
+	margin-bottom:10px;
+}
+.about p {
+	padding-top:10px;
+	color:#374049;
+	font-size:14px;
+}
+aside ol {
+	margin-right:10px;
+	padding:20px 0px;
+}
+
+aside ol li {
+	padding-top:20px;
+}
+aside ol li a {
+	text-decoration:none;
+	font-size:12pt;
+	color:#374049;
+}
+aside ol li a:hover {
+	color:#05B2D2;
+}
+.active a {
+	color:#05B2D2;
+}
+	
+/****************************** End of Aside ********************************/	
+
+/****************************** Begin Of Section ********************************/	
+	
+section {
+	float:right;
+	width:730px;
+}
+h2 {
+	font-size:25px;
+	color:#CBD6D8;
+	text-align:center;
+	padding:37px 0px;
+	border-bottom:1px solid #E7EFF7;
+}
+section p {
+	padding:20px 0px 20px 0px;
+	line-height:190%;
+	color:#2E373D;
+	font-family:sans-serif;
+}
+.list {
+	padding-left:30px;
+	font-size:14px;
+	color:#2E373D;
+}
+.list li {
+	padding-bottom:10px;
+	line-height:130%;
+}
+code, pre {
+	display:block;
+	overflow:auto;
+	margin:10px 0px;
+	padding:10px 10px; 
+    background:#f3f3f3; 
+	font-size:12px;
+	font-family:Courier;
+	color: #BB361B;
+}
+pre span {
+	color:#499100;
+}
+.reserved {
+	font-size:11px;
+	color:#99ACB5;
+	text-align:center;
+}
+
+/****************************** End Of Section ********************************/	
+	
+	
+	
+	
+	
+	
