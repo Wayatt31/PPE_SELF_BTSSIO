@@ -56,6 +56,8 @@ class transaction{
 		$resa = $conn->query("UPDATE transaction SET valide='non' WHERE idtransaction=$idt");
 		$resa->setFetchMode ( PDO::FETCH_OBJ );
 	}
+	
+	public function modifier_transaction($idt,$conn)
     
  
 }
